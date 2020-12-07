@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Forest</title>
+</head>
+
+<body>
+<input id="Forest" type="button" value="Forest"
+onclick="
+if
+(document.querySelector('#Forest').value === 'Forest')
+{document.querySelector('body').style.backgroundColor = 'limegreen';
+document.querySelector('body').style.color = 'limegreen';
+document.querySelector('#Forest').value = 'escape'}
+else
+{document.querySelector('body').style.backgroundColor = 'white';
+document.querySelector('#Forest').value = 'Forest';}">    
+<h1 style="text-align:center; color:limegreen;">Forest</h1>
+<img src="Forest.jpg" width="100%">    
+</body>
+</html>
